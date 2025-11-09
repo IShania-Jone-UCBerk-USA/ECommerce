@@ -19,7 +19,7 @@ const Products = () => {
     const [price, setPrice] = useState([0, 200000]);
     // console.log(location.search);
     const [category, setCategory] = useState(
-        location.search ? location.search.split("=")[1] : ""
+        location.search ? decodeURIComponent(location.search.split("=")[1]) : ""
     );
     const [ratings, setRatings] = useState(0);
     const [products, setProducts] = useState([]);
