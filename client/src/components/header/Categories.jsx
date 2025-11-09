@@ -26,10 +26,7 @@ const catNav = [
         name: "Home",
         icon: home,
     },
-    {
-        name: "Travel",
-        icon: travel,
-    },
+
     {
         name: "Appliances",
         icon: appliances,
@@ -39,7 +36,7 @@ const catNav = [
         icon: furniture,
     },
     {
-        name: "Beauty,Toys & more",
+        name: "Beauty, Toys and More",
         icon: beauty,
     },
     {
